@@ -27,6 +27,18 @@ function Banner() {
                 <SwiperSlide className='SwiperSlide'>
                     <img src={img} alt="" />
                 </SwiperSlide>
+                <SwiperSlide className='SwiperSlide'>
+                    <img src={img} alt="" />
+                </SwiperSlide>
+                <SwiperSlide className='SwiperSlide'>
+                    <img src={img} alt="" />
+                </SwiperSlide>
+                <SwiperSlide className='SwiperSlide'>
+                    <img src={img} alt="" />
+                </SwiperSlide>
+                <SwiperSlide className='SwiperSlide'>
+                    <img src={img} alt="" />
+                </SwiperSlide>
                 
 
             </Swiper>
