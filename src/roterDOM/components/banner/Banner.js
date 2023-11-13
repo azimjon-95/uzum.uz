@@ -5,7 +5,13 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import './style.css';
 import { Autoplay, Pagination, Navigation } from 'swiper';
-import img from '../../assets/banner/images.jpg'
+import img1 from '../../assets/banner/image5.jpg'
+import img2 from '../../assets/banner/image6.jpg'
+import img3 from '../../assets/banner/image8.jpg'
+import img4 from '../../assets/banner/image9.jpg'
+import img5 from '../../assets/banner/image7.jpg'
+
+
 
 function Banner() {
     return (
@@ -25,23 +31,22 @@ function Banner() {
                 className="mySwiper"
             >
                 <SwiperSlide className='SwiperSlide'>
-                    <img src={img} alt="" />
+                    <img className='img1' src={img5} alt="" />
                 </SwiperSlide>
                 <SwiperSlide className='SwiperSlide'>
-                    <img src={img} alt="" />
+                    <img className='img1' src={img2} alt="" />
                 </SwiperSlide>
                 <SwiperSlide className='SwiperSlide'>
-                    <img src={img} alt="" />
+                    <img className='img1' src={img3} alt="" />
                 </SwiperSlide>
                 <SwiperSlide className='SwiperSlide'>
-                    <img src={img} alt="" />
+                    <img className='img1' src={img4} alt="" />
                 </SwiperSlide>
                 <SwiperSlide className='SwiperSlide'>
-                    <img src={img} alt="" />
+                    <img className='img1' src={img1} alt="" />
                 </SwiperSlide>
-                
-
             </Swiper>
+
         </>
     );
 }
