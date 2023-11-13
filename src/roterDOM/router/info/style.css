@@ -1,0 +1,39 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+.df {
+    width: 100%;
+    height: 82.2vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 40px;
+}
+
+.df1 {
+    font-size: 25px;
+}
+
+.df2 {
+    font-size: 14px;
+    font-weight: normal;
+
+}
+
+.button1{
+    width: 180px;
+    height: 45px;
+    background-color: blue;
+    border: none;
+    color: #fff;
+    border-radius: 6px;
+    margin-top: 20px;
+}
