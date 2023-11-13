@@ -2,7 +2,7 @@ import React from 'react'
 import './home.css'
 import Banner from '../banner/Banner'
 import Mahsulot from '../Mahsulotlar/Mahsulot'
-import Footer from '..//Footer/Footer'
+import Footer from '../footer/Footer';
 
 const Home = () => {
     return (
