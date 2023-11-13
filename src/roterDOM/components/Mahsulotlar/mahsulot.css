@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.Mahsulot {
+    width: 100%;
+    height: 150vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px;
+}
+
+.BoxCart {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.Cards {
+    width: 250px;
+    height: 450px;
+    
+    border-radius: 10px;
+    background-color: #fff;
+    color: #000;
+}
+
+.Cards>a {
+    color: #000000;
+    text-decoration: none;
+}
+
+
+.Cards>img {
+    width: 248px;
+    height: 300px;
+    background-color: rgb(215, 215, 215);
+    border-radius: 10px 10px 0px 0px;
+}
+
+.Cards>p {
+    width: 110px;
+    height: 20px;
+    background-color: gold;
+    font-size: 15px;
+    border-radius: 3px;
+    position: relative;
+    top: -55px;
+    left: 0px;
+}
+
+.Cards>a h4 {
+    position: relative;
+    top: -60px;
+    left: 0px;
+}
+
+.Cards>i {
+    position: relative;
+    top: -10px;
+    left: 0px;
+}
+
+.Cards>h3 {
+    position: relative;
+    top: -9px;
+    left: 0px;
+}
+
+
+
+.Cards>b {
+    font-size: 25px;
+    position: relative;
+    top: -300px;
+    left: 220px;
+    color: grey;
+}
+
+
+.Cards>b:hover {
+    color: #000000;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    position: relative;
+    top: 78px;
+    left: 208px;
+}
+
+
+.icon:hover {
+    background-color: rgb(200, 200, 200);
+}
