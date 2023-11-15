@@ -10,7 +10,26 @@ import { FiSearch } from "react-icons/fi"
 const Navbar = () => {
     return (
         <>
+            <div className='tepabaner'>
+                <div className='shahar'>
+                    <p>Shahar:</p>
+                    <b>Toshkent</b>
+                </div>
+                <h5>Topshirish punktlari</h5>
+                <h5>Buyurtmangizni 1 kunda yetkazibberamiz !</h5>
+                <div className='javoblar'>
+                    <b>savol-javoblar</b>
+                   </div> 
+                <h4>Buyurtmalarim</h4>
+                <select className='Til' >
+                        <option value="0000">Ruscha</option>
+                        <option value="111111">Uzbekcha
+                        </option>
+                    </select>
+            </div>
+
             <div className='Navbar'>
+            
 
                 <Link to="/">
                     <h1 className='uzumlogo'>uzum market</h1>

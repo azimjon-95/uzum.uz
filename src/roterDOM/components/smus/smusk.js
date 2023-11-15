@@ -7,7 +7,7 @@ const Smusk = () => {
 
             <div class="btn-box service-btn">
                 
-                <a href="#" class="btn">^</a>
+                <a  href="#" class="btn">^</a>
             </div>
         </div>
     )

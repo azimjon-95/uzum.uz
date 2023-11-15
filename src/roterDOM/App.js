@@ -8,16 +8,14 @@ import Contact from './router/contact/Contact'
 import SinglePage from './router/singelPage/SinglePage'
 import Smusk from './components/smus/smusk'
 
-const DomApp = () => { 
+const DomApp = () => {
 
     return (
         <div>
             <Navbar />
-            <Smusk/>
-
+            <Smusk />
             <Routes>
                 <Route exact path='/' element={<Home />} />
-
                 <Route path='about' element={<About />} />
                 <Route path='info' element={<Info />} />
                 <Route path='contact' element={<Contact />} />

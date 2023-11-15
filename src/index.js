@@ -9,7 +9,7 @@ root.render(
   <React.StrictMode>
     {/* <App /> */}
     <BrowserRouter>
-      <DomApp />
+        <DomApp />
     </BrowserRouter>
   </React.StrictMode>
 

@@ -15,6 +15,9 @@ import img5 from '../../assets/banner/image7.jpg'
 
 function Banner() {
     return (
+
+
+        
         <>
             <Swiper
                 spaceBetween={30}

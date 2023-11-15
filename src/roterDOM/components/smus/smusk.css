@@ -12,33 +12,24 @@
     border-radius: 50%;
     position: fixed;
     left: 195vh;
-    top: 550px;
-
-    
+    top: 600px;
 }
-.aylanaa{
+
+.aylanaa {
     color: white;
     padding: 5px 10px;
     bottom: 5px;
-font-size: xxx-large;
-position: absolute;
-
+    font-size: xxx-large;
+    position: absolute;
 }
 
-.btn { 
+.btn {
     width: 100px;
     height: 100%;
-    background: var(--hover-color);
-    color: var(--bg-color);
     color: white;
-    letter-spacing: 1px;
     font-weight: 600;
-    transition: .9999999999s;
-    box-shadow: var(--neon-box-shadow);
-    border-radius: 5px;
     position: absolute;
     left: 10px;
-font-size: xxx-large;    
-    overflow: hidden;
-    z-index: 1;
+    top: 5px;
+    font-size: xxx-large;
 }
