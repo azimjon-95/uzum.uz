@@ -5,12 +5,18 @@ import Mahsulot from '../Mahsulotlar/Mahsulot'
 import Footer from '../footer/Footer';
 
 const Home = () => {
+   
     return (
         <div className=''>
             <Banner />
+
+            <div className=''>
+                
+            </div>
             <Mahsulot />
-            <Footer />
+            <Footer />k
         </div>
     )
 }
 export default Home
+

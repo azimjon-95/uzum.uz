@@ -11,11 +11,14 @@
     height: 55px;
     /* background-color: black; */
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-    padding: 0 60px;
+    padding: 0 150px;
     color: rgb(255, 255, 255);
     border-bottom: 1px solid #fff;
+
+
+
 }
 
 .Navbar>a {
@@ -29,14 +32,18 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 50px;
+    padding: 0px;
+    gap: 110px;
 
 }
 
-.navBtn>a>button {
+.about2>a>button,
+.info2>a>button,
+.contact2>a>button {
     border: none;
     background: transparent;
     color: rgb(0, 0, 0);
+    line-height: 20px;
 
 
 }
@@ -59,7 +66,7 @@
     font-weight: bold;
     color: rgb(161, 84, 233);
     font-weight: 800;
-    padding: 120px;
+    /* padding: 120px; */
 }
 
 .katalogButton {
@@ -68,16 +75,11 @@
     border: none;
     border-radius: 6px;
     background-color: #b6c0db;
-    position: absolute;
-    left: 365px;
+    margin-right: 10px;
     color: blue;
-
+    cursor: pointer;
 }
 
-.logoimage {
-    position: absolute;
-    left: 135px;
-}
 
 .katalogButton:hover {
     background-color: #919ec5;
@@ -90,15 +92,26 @@
     margin-right: 10px;
     border-radius: 6px;
     text-indent: 20px;
+    cursor: pointer;
+
 }
 
 .button2,
 .button21,
 .button22 {
 
-    margin-right: 20px;
+    margin-right: -80px;
     font-weight: 700;
     font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+
+}
+
+.button21 {
+    margin-right: -50px;
+    cursor: pointer;
+
 }
 
 .NavbarText {
@@ -106,6 +119,8 @@
     font-weight: lighter;
     line-height: 10px;
     color: #38393b;
+    cursor: pointer;
+    
 
 }
 
@@ -114,6 +129,8 @@
     margin-left: 22px;
     color: black;
     font-weight: 800;
+    cursor: pointer;
+
 }
 
 .NavbarText:hover {
@@ -125,15 +142,57 @@
 
 .name10 {
 
-    left: 135px;
+    display: flex;
+    cursor: pointer;
+
 }
 
-.df4 {
-    position: absolute;
-    top: 60px;
-    left: 80px;
+
+
+.icon1,
+.icon3,
+.icon4 {
+    font-size: 30px;
+    color: black;
+    cursor: pointer;
+
+
 }
 
-.icon1 {
-    font-size: 60px;
+.position {
+    display: flex;
+    cursor: pointer;
+
+    gap: 10px;
+
+}
+
+.position>a {
+    color: #000000;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+.input_icon {
+    display: flex;
+    cursor: pointer;
+
+}
+
+.icon2 {
+    font-size: 30px;
+    color: black;
+    cursor: pointer;
+
+
+}
+
+.about2,
+.contact2,
+.info2 {
+    display: flex;
+    gap: 4px;
+    cursor: pointer;
+
 }

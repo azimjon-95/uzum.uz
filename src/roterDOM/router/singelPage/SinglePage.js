@@ -1,4 +1,4 @@
-import React from 'react';
+import  React from 'react';
 import './style.css'
 import { useParams } from 'react-router';
 import Data from '../../Data';
@@ -8,8 +8,6 @@ const SinglePage = () => {
 
 
     const result = Data?.filter(i => i.id == id)
-
-
     return (
         <div>
             {
