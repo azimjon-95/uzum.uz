@@ -1,17 +1,15 @@
 import React from 'react';
-import "../navbar/style.css"
+import "./style.css"
 import { Link } from 'react-router-dom';
 import uzumLogo from "../../assets/banner/uzum.logo.png"
 import Df3 from "../../assets/banner/df3.png"
 import { FiSearch } from "react-icons/fi"
 
 
-
 const Navbar = () => {
     return (
         <>
             <div className='Navbar'>
-
                 <Link to="/">
                     <h1 className='uzumlogo'>uzum market</h1>
                 </Link>
