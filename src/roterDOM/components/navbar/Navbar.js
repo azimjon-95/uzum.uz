@@ -4,10 +4,12 @@ import { Link } from 'react-router-dom';
 import uzumLogo from "../../assets/banner/uzum.logo.png"
 import Df3 from "../../assets/banner/df3.png"
 import { FiSearch } from "react-icons/fi"
-
+// import "../../router/about/About"
+                
 
 
 const Navbar = () => {
+    // const [open, setOpen] = useState(false)
     return (
         <>
             <div className='Navbar'>
@@ -21,7 +23,7 @@ const Navbar = () => {
                 <img className='logoimage' width={35} src={uzumLogo} alt='' />
                 <div className="navBtn">
                     <Link to="about">
-                        <button className='button2'>Войти</button>
+                        <button  className='button2'>Войти</button>
                     </Link>
                     <Link to="info">
                         <button className='button21'>Избранной</button>
@@ -29,7 +31,6 @@ const Navbar = () => {
                     <Link to="contact">
                         <button className='button22'>Корзина</button>
                     </Link>
-
 
 
                 </div>
