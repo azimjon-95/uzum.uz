@@ -1,0 +1,632 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+
+
+.Nav {
+    width: 37%;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    margin: 0px 30px;
+}
+
+
+
+.Nav>p {
+    padding: 3px;
+    font-size: 12px;
+    font-weight: 200;
+    color: rgb(70, 70, 70);
+
+}
+
+
+.Nav>b {
+    padding: 3px;
+    font-size: 12px;
+    font-weight: 200;
+    color: rgb(160, 160, 160);
+}
+
+.Cards1 {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+}
+
+
+.Cards1>img {
+    width: 100px;
+    height: 100px;
+}
+
+.imgg {
+    width: 100px;
+    height: 80vh;
+    background-color: rgb(255, 255, 255);
+    margin: 10px 0px 0px 30px;
+    overflow: auto;
+}
+
+
+.imgg::-webkit-scrollbar {
+    display: none;
+}
+
+
+.imgg1 {
+    width: 100px;
+    height: 120px;
+    background-color: aqua;
+}
+
+
+.imgg1>img {
+    width: 100px;
+    height: 120px;
+}
+
+
+.imgg1>img:hover {
+    border: 1px solid black;
+}
+
+
+.img2 {
+    width: 100px;
+    height: 120px;
+    background-color: rgb(105, 157, 157);
+    margin: 6px 0px;
+}
+
+
+.img2>img {
+    width: 100px;
+    height: 120px;
+}
+
+
+.img2>img:hover {
+    border: 1px solid black;
+}
+
+
+.img3 {
+    width: 100px;
+    height: 120px;
+    background-color: rgb(0, 13, 255);
+    margin: 6px 0px;
+}
+
+.img3>img {
+    width: 100px;
+    height: 120px;
+}
+
+
+.img3>img:hover {
+    border: 1px solid black;
+}
+
+
+.img4 {
+    width: 100px;
+    height: 120px;
+    background-color: rgb(255, 0, 119);
+    margin: 6px 0px;
+}
+
+
+.img4>img {
+    width: 100px;
+    height: 120px;
+}
+
+
+.img4>img:hover {
+    border: 1px solid black;
+}
+
+
+.img5 {
+    width: 100px;
+    height: 120px;
+    background-color: aqua;
+    margin: 6px 0px;
+}
+
+
+.img5>img {
+    width: 100px;
+    height: 120px;
+}
+
+
+.img5>img:hover {
+    border: 1px solid black;
+}
+
+
+.img6 {
+    width: 100px;
+    height: 120px;
+    background-color: aqua;
+    margin: 6px 0px;
+}
+
+
+.img6>img {
+    width: 100px;
+    height: 120px;
+}
+
+
+.img6>img:hover {
+    border: 1px solid black;
+}
+
+
+
+/*.img7{
+    width: 140px;
+    height: 80px;
+    background-color: aqua;
+}
+
+
+.img7>img {
+    width: 100px;
+    height: 120px;
+}
+
+
+.img7>img:hover {
+    border: 1px solid black;
+}
+
+
+
+.img8 {
+    width: 140px;
+    height: 80px;
+    background-color: aqua;
+}
+
+.img8>img {
+    width: 100px;
+    height: 120px;
+}
+
+
+.img8>img:hover {
+    border: 1px solid black;
+}*/
+
+
+.rasm {
+    width: 400px;
+    height: 80vh;
+    background: none;
+    margin: 10px 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.mySwiper1 {
+    width: 500px;
+    height: 80vh;
+}
+
+
+
+/* -webkit-scrollbar  */
+
+
+
+.rasm1 {
+    width: 400px;
+    height: 80vh;
+}
+
+
+
+.FooterYozuv1 {
+    width: 100%;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 130%;
+    left: 0;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.yozuv {
+    width: 600px;
+    height: 80vh;
+    background-color: rgb(255, 255, 255);
+    margin: 10px 80px;
+    overflow: auto;
+}
+
+
+.yozuv::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+
+.iconn {
+    width: 600px;
+    height: 20px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.iconn1 {
+    width: 120px;
+    height: 20px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+
+.iconn1>p {
+    padding: 6px;
+    color: rgb(70, 70, 70);
+}
+
+
+.iconn1>n {
+    color: rgb(70, 70, 70);
+}
+
+
+.iconn2 {
+    width: 310px;
+    height: 20px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+
+.iconn2>p {
+    color: gold;
+    padding: 1px;
+}
+
+.iconn2>g {
+    color: rgb(170, 170, 170);
+    padding: 20px;
+}
+
+
+.iconn2>n {
+    color: rgb(170, 170, 170);
+}
+
+
+
+.malumot {
+    width: 600px;
+    height: 120px;
+    background-color: rgb(166, 0, 0);
+    border-bottom: 1px solid rgb(21, 20, 20);
+}
+
+
+.Спортивные {
+    width: 600px;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    font-size: 23px;
+}
+
+
+
+.Продавец {
+    width: 600px;
+    height: 90px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    border-bottom: 1px solid rgb(170, 170, 170);
+}
+
+
+.aaaa {
+    width: 150px;
+    height: 90px;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(170, 170, 170);
+}
+
+
+.aaaa>p {
+    padding: 10px 0px;
+}
+
+
+.bbbb {
+    width: 150px;
+    height: 90px;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(170, 170, 170);
+}
+
+
+.bbbb>p {
+    padding: 10px 0px;
+}
+
+
+.rangi {
+    width: 600px;
+    height: 150px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.Цвет {
+    width: 600px;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: end;
+}
+
+
+
+.Цвет>b {
+    padding: 0px 6px;
+}
+
+
+
+.rasmi {
+    width: 70px;
+    height: 90px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 15px 0px;
+}
+
+
+.rasmi>img {
+    width: 100%;
+    height: 87.9px;
+    border-radius: 2px;
+}
+
+
+.razmer {
+    width: 600px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.razmer>p {
+    padding: 10px 0px 0px 0px;
+}
+
+
+.x {
+    width: 600px;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    gap: 10px;
+    display: flex;
+    align-items: end;
+}
+
+
+.boxx1 {
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgb(150, 150, 150);
+    border-radius: 4px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(150, 150, 150);
+}
+
+
+.boxx1:hover {
+    border: 2.6px solid rgb(170, 170, 170);
+}
+
+
+.Количество {
+    width: 600px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.y {
+    width: 600px;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: end;
+}
+
+
+
+.plusMinus {
+    width: 600px;
+    height: 70px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+}
+
+
+
+.plus {
+    width: 120px;
+    height: 40px;
+    border: 1.5px solid rgb(150, 150, 150);
+    border-radius: 4px;
+    display: flex;
+}
+
+
+
+.plusMinus>n {
+    font-size: 14px;
+    padding: 8px;
+    color: chartreuse;
+}
+
+
+
+.minus {
+    width: 40px;
+    height: 36px;
+    background-color: rgb(255, 255, 255);
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.werty {
+    width: 600px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.werty>p {
+    padding: 10px 0px 0px 0px;
+}
+
+
+
+.narxi {
+    width: 600px;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: end;
+    gap: 20px;
+    font-size: 20px;
+}
+
+
+
+.narxi>b {
+    color: rgb(40, 40, 40);
+}
+
+
+
+.narxi>p {
+    color: rgb(170, 170, 170);
+}
+
+
+
+.рассрочку {
+    width: 600px;
+    height: 60px;
+    border-radius: 8px;
+    background-color: rgb(235, 235, 235);
+    display: flex;
+    align-items: center;
+}
+
+
+.рассрочку:hover {
+    background-color: rgb(225, 225, 225);
+}
+
+
+.рассрочку>b {
+    position: relative;
+    top: 3px;
+    left: 310px;
+    color: rgb(170, 170, 170);
+}
+
+
+.cum {
+    width: 160px;
+    height: 30px;
+    border-radius: 6px;
+    background-color: yellow;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 2px 0px 10px;
+}
+
+
+
+.wwww {
+    width: 600px;
+    height: 80px;
+    background: rgb(255, 255, 255);
+    margin: 10px 0px;
+    display: flex;
+    gap: 10px;
+}
+
+
+.uzatuvchi1 {
+    width: 295px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+}
+
+
+.uzatuvchi1:hover {
+    background-color: rgb(0, 0, 158);
+}
+
+
+.uzatuvchi2 {
+    width: 295px;
+    height: 60px;
+    border-radius: 10px;
+    border: 1.5px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+    font-size: 18px;
+}

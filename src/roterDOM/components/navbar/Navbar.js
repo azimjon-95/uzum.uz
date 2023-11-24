@@ -12,6 +12,7 @@ const Navbar = () => {
         <>
             <div className='Navbar'>
 
+
                 <Link to="/">
                     <h1 className='uzumlogo'>uzum market</h1>
                 </Link>

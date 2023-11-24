@@ -7,11 +7,14 @@
 
 .Footer {
     width: 100%;
-    height: 87vh;
+    height: 80vh;
     background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
 }
+
+
+
 
 .Footer>button {
     width: 700px;
@@ -27,16 +30,18 @@
     background-color: rgb(225, 225, 225);
 }
 
+
 .FooterYozuv {
     width: 100%;
     height: 500px;
     background-color: rgb(255, 255, 255);
     position: absolute;
-    top: 270%;
+    top: 250%;
     left: 0;
     display: flex;
     align-items: center;
 }
+
 
 .box1 {
     width: 250px;
@@ -109,62 +114,6 @@
     margin: 30px;
 }
 
-.sana {
-    width: 100%;
-    height: 50px;
-    background-color: rgb(255, 255, 255);
-    position: absolute;
-    top: 450px;
-    left: 0;
-    border-top: 2px solid rgb(210, 210, 210);
-    display: flex;
-    justify-content: space-between;
-    font-size: 12px;
-}
-
-.Bce {
-    width: 600px;
-    height: 50px;
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.Bce>p {
-    padding: 15px;
-}
-
-
-.uzum {
-    width: 600px;
-    height: 50px;
-    background-color: rgb(255, 255, 255);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: rgb(100, 100, 100);
-}
-
-.box4>h5 {
-    padding: 25px 10px;
-    color: rgb(90, 90, 90);
-    font-size: 15px;
-    position: relative;
-    top: 30px;
-    left: 0;
-}
-
-.box4>g {
-    padding: 20px 10px;
-    color: rgb(90, 90, 90);
-    font-size: 17px;
-}
-
-.box4>p {
-    padding: 0px 10px;
-    color: rgb(40, 40, 40);
-}
 
 .icons {
     width: 250px;
@@ -191,4 +140,67 @@
 
 .icons>a g {
     color: blue;
+}
+
+
+.sana {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 430px;
+    left: 0;
+    border-top: 2px solid rgb(210, 210, 210);
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+
+.Bce {
+    width: 600px;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Bce>p {
+    padding: 15px;
+}
+
+
+.uzum {
+    width: 600px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(100, 100, 100);
+}
+
+
+.box4>h5 {
+    padding: 25px 10px;
+    color: rgb(90, 90, 90);
+    font-size: 15px;
+    position: relative;
+    top: 30px;
+    left: 0;
+}
+
+
+.box4>g {
+    padding: 20px 10px;
+    color: rgb(90, 90, 90);
+    font-size: 17px;
+}
+
+
+.box4>p {
+    padding: 0px 10px;
+    color: rgb(40, 40, 40);
 }

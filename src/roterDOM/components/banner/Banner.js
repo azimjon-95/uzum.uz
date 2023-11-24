@@ -16,7 +16,7 @@ import img5 from '../../assets/banner/image7.jpg'
 function Banner() {
     return (
         <>
-            <Swiper
+             <Swiper
                 spaceBetween={30}
                 centeredSlides={true}
                 autoplay={{
@@ -45,7 +45,7 @@ function Banner() {
                 <SwiperSlide className='SwiperSlide'>
                     <img className='img1' src={img1} alt="" />
                 </SwiperSlide>
-            </Swiper>
+            </Swiper> 
 
         </>
     );

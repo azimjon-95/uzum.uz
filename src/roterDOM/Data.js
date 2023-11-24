@@ -1,11 +1,12 @@
-import img1 from './assets/img/kiyim.jpg'
-import img2 from "./assets/img/samsung.jpg"
-import img3 from "./assets/img/kirmashina.jpg"
-import img4 from "./assets/img/krasofka.jpg"
-import img5 from "./assets/img/cofe.jpg"
-import img6 from "./assets/img/chang yutgich.jpg"
-import img7 from "./assets/img/moy.jpg"
-import img8 from "./assets/img/gostmaydlagich.jpg"
+import img1 from './img/kiyim.jpg'
+import img2 from './img/samsung.jpg'
+import img3 from "./img/kirmashina.jpg"
+import img4 from "./img/krasofka.jpg"
+import img5 from "./img/cofe.jpg"
+import img6 from "./img/chang yutgich.jpg"
+import img7 from "./img/moy.jpg"
+import img8 from "./img/gostmaydlagich.jpg"
+// "/img/samsung.jpg"
 
 const data = [
     {
@@ -67,7 +68,23 @@ const data = [
     {
         id: 8,
         img: img8,
-        name: "Мясорубка Polaris PMG 1852 RUS",
+        name: "Мясорубка Polaris PMG 1852",
+        price1: "97 680cyм/мес",
+        price2: '9 760 000 сум',
+        price: "97 680cyм/мес",
+    },
+    {
+        id: 9,
+        img: img7,
+        name: "№AM0010011",
+        price1: "97 680cyм/мес",
+        price2: '9 760 000 сум',
+        price: "97 680cyм/мес",
+    },
+    {
+        id: 10,
+        img: img8,
+        name: "Мясорубка Polaris PMG 1852",
         price1: "97 680cyм/мес",
         price2: '9 760 000 сум',
         price: "97 680cyм/мес",

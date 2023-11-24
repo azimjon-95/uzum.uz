@@ -52,7 +52,7 @@ const Footer = () => {
                         </Link>
                     </div>
                 </div>
-                <div className="sana">
+                 <div className="sana">
                     <div className="Bce">
                         <p>Соглашение o конфиденциальности</p>
                         <p>Пользовательское соглашение</p>
@@ -62,10 +62,9 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
+
         </div>
     )
 }
 
 export default Footer
-
-
