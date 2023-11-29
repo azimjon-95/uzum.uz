@@ -4,6 +4,8 @@ import Data from "../../Data"
 import { Link } from "react-router-dom";
 import { AiOutlineHeart } from 'react-icons/ai';
 import { TbShoppingCartPlus } from 'react-icons/tb';
+import rasmii from '../../img/rasmii.jpg'
+import { FaChevronRight } from "react-icons/fa6";
 const Banner = () => {
     const [open, setOpen] = useState(false)
     return (
@@ -32,7 +34,29 @@ const Banner = () => {
             <div className={`${open ? "modelBox" : "modelBoxNone"}`}>
                 <div className="model">
                     <h1 className="hh" onClick={() => setOpen(false)}>+</h1>
-                    <div className="a"></div>
+                    <div className="ikki">
+                        <div className="rasmii">
+                            <img src={rasmii} alt="" />
+                        </div>
+                        <div className="cartsss">
+                            <p>Вся информация o товаре</p>
+                            <n><FaChevronRight /></n>
+                        </div>
+                    </div>
+                    <div className="uch">
+                        <div className="Костюм">
+                            <p>Костюм спортивный, унисекс</p>
+                        </div>
+                        <div className="rangii">
+                            <div className="yozuvv">
+                                <p>Цвет:</p>
+                                <b>Тёмно-зелёный</b>
+                            </div>
+                            <div className="rasmga">
+                                <img src={rasmii} alt="" />
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
